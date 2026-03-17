@@ -19,6 +19,3 @@ async def blog(request: Request):
 @router.get("/blog/{id}")
 async def get_blog_id(id: int):
     return {"blog_id": id}
-
-
-
