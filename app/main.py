@@ -10,8 +10,6 @@ from .routers.photos_router import router as photos_router
 
 
 
-
-
 app = FastAPI()
 app.mount("/static", StaticFiles(directory="static"), name='static')
 

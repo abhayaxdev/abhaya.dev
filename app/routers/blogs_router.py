@@ -5,7 +5,6 @@ from app.dependencies import get_templates
 
 
 
-
 router = APIRouter()
 templates = get_templates()
 
